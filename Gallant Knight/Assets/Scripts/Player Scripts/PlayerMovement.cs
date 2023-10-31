@@ -86,9 +86,17 @@ public class PlayerMovement : MonoBehaviour
 
     bool IsGrounded()
     {
-        groundCast = Physics2D.Raycast(boxCollider2D.bounds.center, Vector2.down, boxCollider2D.bounds.extents.y + 0.015f, groundMask);
+        /*groundCast = Physics2D.Raycast(boxCollider2D.bounds.center, Vector2.down, boxCollider2D.bounds.extents.y + 0.015f, groundMask);
 
-        Debug.DrawRay(boxCollider2D.bounds.center, Vector2.down * (boxCollider2D.bounds.extents.y + 0.015f), Color.red);
+        Debug.DrawRay(boxCollider2D.bounds.center, Vector2.down * (boxCollider2D.bounds.extents.y + 0.015f), Color.red);*/
+
+        groundCast = Physics2D.BoxCast(boxCollider2D.bounds.center, boxCollider2D.bounds.size, 0f, Vector2.down, 0.01f, groundMask);
+
+        Debug.DrawRay(boxCollider2D.bounds.center + new Vector3(boxCollider2D.bounds.extents.x, 0f), Vector2.down * (boxCollider2D.bounds.extents.y + 0.01f), Color.red);
+
+        Debug.DrawRay(boxCollider2D.bounds.center - new Vector3(boxCollider2D.bounds.extents.x, 0f), Vector2.down * (boxCollider2D.bounds.extents.y + 0.01f), Color.red);
+
+        Debug.DrawRay(boxCollider2D.bounds.center - new Vector3(boxCollider2D.bounds.extents.x, boxCollider2D.bounds.extents.y), Vector2.right * boxCollider2D.bounds.size.x, Color.red);
 
         return groundCast.collider != null;
     }
