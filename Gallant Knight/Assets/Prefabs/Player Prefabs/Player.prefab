@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 8482757558449244547}
   - component: {fileID: 2743270756528111508}
   - component: {fileID: 5071157185355168585}
+  - component: {fileID: 7133262859848319584}
+  - component: {fileID: 5130616285565107217}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -117,7 +119,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5867441158332918180}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -246,3 +248,29 @@ PolygonCollider2D:
       - {x: 0.18576753, y: 0.12661657}
       - {x: 0.17957519, y: 0.3944316}
   m_UseDelaunayMesh: 0
+--- !u!114 &7133262859848319584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867441158332918180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5842c0fbd71d1714aaaac7242a692383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  horizontalMovement: 0
+--- !u!114 &5130616285565107217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867441158332918180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5382bcbf8208bd042a3fc8ed9de6e6a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
