@@ -25,4 +25,9 @@ public class PlayerAnimations : MonoBehaviour
         else if (direction < 0)
             spriteRenderer.flipX = true;
     }
+
+    public void PlayJumpAndFall(int jumpFall)
+    {
+        animator.SetInteger(TagManager.JUMP_ANIMATION_PARAM, jumpFall);
+    }
 }

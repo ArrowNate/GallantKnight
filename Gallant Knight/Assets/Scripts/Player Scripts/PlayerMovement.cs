@@ -65,6 +65,8 @@ public class PlayerMovement : MonoBehaviour
             playerAnimation.PlayRun(Mathf.Abs((int)pRB.velocity.x));
 
         playerAnimation.ChangeFacingDirection((int)pRB.velocity.x);
+
+        playerAnimation.PlayJumpAndFall((int)pRB.velocity.y);
     }
 
     void HandleJumping()
