@@ -9,16 +9,19 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D pRB;
 
-    private Vector3 movePos;
+    private PlayerAnimations playerAnimation;
 
     private void Awake()
     {
         pRB = GetComponent<Rigidbody2D>();
+        playerAnimation = GetComponent<PlayerAnimations>();
     }
 
     private void Update()
     {
         horizontalMovement = Input.GetAxisRaw(TagManager.HORIZONTAL_MOVEMENT_AXIS);
+
+        HandleAnimation();
     }
 
     private void FixedUpdate()
@@ -40,5 +43,11 @@ public class PlayerMovement : MonoBehaviour
         {
             pRB.velocity = new Vector2(0f, pRB.velocity.y);
         }
+    }
+
+    void HandleAnimation()
+    {
+        if (pRB.velocity.y == 0f)
+            playerAnimation.PlayRun(Mathf.Abs((int)pRB.velocity.x));
     }
 }
