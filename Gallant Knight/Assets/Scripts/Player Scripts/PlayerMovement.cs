@@ -6,10 +6,13 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float horizontalMovement;
+    [SerializeField] private float normalJumpForce = 5f, doubleJumpForce = 5f;
 
     private Rigidbody2D pRB;
 
     private PlayerAnimations playerAnimation;
+
+    private float jumpForce = 5f;
 
     private void Awake()
     {
@@ -22,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
         horizontalMovement = Input.GetAxisRaw(TagManager.HORIZONTAL_MOVEMENT_AXIS);
 
         HandleAnimation();
+        HandleJumping();
     }
 
     private void FixedUpdate()
@@ -51,5 +55,31 @@ public class PlayerMovement : MonoBehaviour
             playerAnimation.PlayRun(Mathf.Abs((int)pRB.velocity.x));
 
         playerAnimation.ChangeFacingDirection((int)pRB.velocity.x);
+    }
+
+    void HandleJumping()
+    {
+        if (Input.GetButtonDown(TagManager.JUMP_BUTTON))
+        {
+            if (IsGrounded())
+            {
+                jumpForce = normalJumpForce;
+                Jump();
+            }
+            else
+            {
+
+            }
+        }
+    }
+
+    bool IsGrounded()
+    {
+
+    }
+
+    void Jump()
+    {
+        pRB.velocity = Vector2.up * jumpForce;
     }
 }
