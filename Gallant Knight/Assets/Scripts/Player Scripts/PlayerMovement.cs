@@ -35,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
 
         HandleAnimation();
         HandleJumping();
+        CheckToDoubleJump();
     }
 
     private void FixedUpdate()
@@ -68,8 +69,6 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleJumping()
     {
-        IsGrounded();
-
         if (Input.GetButtonDown(TagManager.JUMP_BUTTON))
         {
             if (IsGrounded())
@@ -79,7 +78,12 @@ public class PlayerMovement : MonoBehaviour
             }
             else
             {
-
+                if (canDoubleJump)
+                {
+                    canDoubleJump = false;
+                    jumpForce = doubleJumpForce;
+                    Jump();
+                }
             }
         }
     }
@@ -104,5 +108,13 @@ public class PlayerMovement : MonoBehaviour
     void Jump()
     {
         pRB.velocity = Vector2.up * jumpForce;
+    }
+
+    void CheckToDoubleJump()
+    {
+        if (!canDoubleJump && pRB.velocity.y == 0f)
+        {
+            canDoubleJump = true;
+        }
     }
 }
