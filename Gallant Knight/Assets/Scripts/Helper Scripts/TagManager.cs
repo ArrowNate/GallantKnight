@@ -9,4 +9,7 @@ public static class TagManager
 
     public const string RUN_ANIMATION_PARAM = "Run";
     public const string JUMP_ANIMATION_PARAM = "Jump";
+
+    public const string IDLE_ANIMATION_NAME = "Idle";
+    public const string RUN_ANIMATION_NAME = "Run";
 }

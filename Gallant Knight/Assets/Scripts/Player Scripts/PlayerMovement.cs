@@ -36,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
         HandleAnimation();
         HandleJumping();
         CheckToDoubleJump();
+        FromJumpToRunOrIdle();
     }
 
     private void FixedUpdate()
@@ -117,6 +118,23 @@ public class PlayerMovement : MonoBehaviour
         if (!canDoubleJump && pRB.velocity.y == 0f)
         {
             canDoubleJump = true;
+        }
+    }
+
+    void FromJumpToRunOrIdle()
+    {
+        if (jumped && pRB.velocity.y == 0f)
+        {
+            jumped = false;
+
+            if (Mathf.Abs((int)pRB.velocity.x) > 0f)
+            {
+                playerAnimation.PlayAnimationWithName(TagManager.RUN_ANIMATION_NAME);
+            }
+            else
+            {
+                playerAnimation.PlayAnimationWithName(TagManager.IDLE_ANIMATION_NAME);
+            }
         }
     }
 }

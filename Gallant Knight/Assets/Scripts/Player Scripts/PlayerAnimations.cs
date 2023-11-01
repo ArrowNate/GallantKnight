@@ -30,4 +30,9 @@ public class PlayerAnimations : MonoBehaviour
     {
         animator.SetInteger(TagManager.JUMP_ANIMATION_PARAM, jumpFall);
     }
+
+    public void PlayAnimationWithName(string animatorName)
+    {
+        animator.Play(animatorName);
+    }
 }
