@@ -12,4 +12,6 @@ public static class TagManager
 
     public const string IDLE_ANIMATION_NAME = "Idle";
     public const string RUN_ANIMATION_NAME = "Run";
+
+    public const string PLAYER_TAG = "Player";
 }
