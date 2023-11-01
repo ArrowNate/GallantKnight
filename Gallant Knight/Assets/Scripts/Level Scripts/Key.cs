@@ -8,6 +8,8 @@ public class Key : MonoBehaviour
     {
         if (collision.CompareTag(TagManager.PLAYER_TAG))
         {
+            Lock.instance.UnlockDoor();
+
             Destroy(gameObject);
         }
     }
