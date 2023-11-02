@@ -24,7 +24,7 @@ public class RotateObstacle : MonoBehaviour
     {
         if (collision.CompareTag(TagManager.PLAYER_TAG))
         {
-            
+            Destroy(collision.gameObject);
         }
     }
 }
