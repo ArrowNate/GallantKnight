@@ -16,9 +16,9 @@ GameObject:
   - component: {fileID: 5071157185355168585}
   - component: {fileID: 7133262859848319584}
   - component: {fileID: 5130616285565107217}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -262,6 +262,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   horizontalMovement: 0
+  normalJumpForce: 5
+  doubleJumpForce: 5
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &5130616285565107217
 MonoBehaviour:
   m_ObjectHideFlags: 0
