@@ -14,4 +14,5 @@ public static class TagManager
     public const string RUN_ANIMATION_NAME = "Run";
 
     public const string PLAYER_TAG = "Player";
+    public const string TRAP_TAG = "Trap";
 }

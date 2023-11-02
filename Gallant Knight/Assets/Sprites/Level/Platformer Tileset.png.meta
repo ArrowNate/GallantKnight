@@ -325,10 +325,10 @@ TextureImporter:
       name: Circle Spike
       rect:
         serializedVersion: 2
-        x: 480
-        y: 240
-        width: 160
-        height: 160
+        x: 481
+        y: 241
+        width: 159
+        height: 158
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
