@@ -31,7 +31,15 @@ public class HangingSpike : MonoBehaviour
         if (playerCast.collider != null)
         {
             collidedWitPlayer = true;
-            sRB.gravityScale = 1f;
+            sRB.gravityScale = 10f;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag(TagManager.PLAYER_TAG))
+        {
+            Destroy(collision.gameObject);
         }
     }
 }
