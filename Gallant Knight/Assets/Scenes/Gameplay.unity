@@ -131,6 +131,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1499048492}
     m_Modifications:
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 6
@@ -411,6 +415,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1499048492}
     m_Modifications:
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 11
@@ -749,6 +757,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1499048492}
     m_Modifications:
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 10
@@ -1910,6 +1922,8 @@ Transform:
   - {fileID: 7676099178092437621}
   - {fileID: 2128285874}
   - {fileID: 1782029445}
+  - {fileID: 2028148389}
+  - {fileID: 862014506}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &649215129
@@ -1955,6 +1969,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1499048492}
     m_Modifications:
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 4
@@ -2277,6 +2295,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1499048492}
     m_Modifications:
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 7
@@ -2414,12 +2436,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 862014503}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0033068322, y: -7.36, z: -0.63176167}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.4279615, y: -5.1730127, z: -0.63176167}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 641229518}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &888926062
 PrefabInstance:
@@ -2429,6 +2451,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1499048492}
     m_Modifications:
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 9
@@ -2491,6 +2517,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1499048492}
     m_Modifications:
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 2
@@ -2910,6 +2940,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1499048492}
     m_Modifications:
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 12
@@ -3116,6 +3150,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1499048492}
     m_Modifications:
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 3
@@ -3790,7 +3828,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1782029444}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3846,6 +3884,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1499048492}
     m_Modifications:
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 5
@@ -4140,6 +4182,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1499048492}
     m_Modifications:
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 8
@@ -4367,6 +4413,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7896029085332680500, guid: fddfdf6cb1ecd8e43ae3e121d52e21e8, type: 3}
   m_PrefabInstance: {fileID: 2006201755}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2028148387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2028148389}
+  - component: {fileID: 2028148388}
+  m_Layer: 0
+  m_Name: Border
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &2028148388
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028148387}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.25, y: 10}
+  m_EdgeRadius: 0
+--- !u!4 &2028148389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028148387}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.590346, y: 2.1869872, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 641229518}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2128285873
 GameObject:
   m_ObjectHideFlags: 0
@@ -4766,6 +4889,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 67018891}
     m_Modifications:
+    - target: {fileID: 1320400156246232999, guid: 5ed2d23d8cb314044b86b42738a8a331, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1992650256672279093, guid: 5ed2d23d8cb314044b86b42738a8a331, type: 3}
       propertyPath: m_Name
       value: Flying Bat
@@ -4823,6 +4950,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 67018891}
     m_Modifications:
+    - target: {fileID: 1103517845662611549, guid: 42d73154117ae544ab12744097e5f862, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
+    - target: {fileID: 3871314309885292868, guid: 42d73154117ae544ab12744097e5f862, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 4212943771525809681, guid: 42d73154117ae544ab12744097e5f862, type: 3}
       propertyPath: m_Name
       value: Spider Jumper
@@ -4954,6 +5089,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hanging Spike
       objectReference: {fileID: 0}
+    - target: {fileID: 2620400863853071943, guid: 75cc480abfbf5df4e8149155939ec48a, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5035,6 +5174,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1902887717063096525, guid: f70f5cb08db039f4cb6b5f7b978503ad, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 2512040728998800477, guid: f70f5cb08db039f4cb6b5f7b978503ad, type: 3}
       propertyPath: m_Name
       value: Web Spawn Point
@@ -5084,6 +5227,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1499048492}
     m_Modifications:
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike
@@ -5145,6 +5292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Worm Soldier
       objectReference: {fileID: 0}
+    - target: {fileID: 3971004785206578893, guid: 7049535911ff3344a90f625cea1cb7a1, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 7671805336237616829, guid: 7049535911ff3344a90f625cea1cb7a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.1283454
@@ -5207,7 +5358,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 929955246}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -5240,4 +5391,3 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 4403148957750213901}
   - {fileID: 641229518}
-  - {fileID: 862014506}

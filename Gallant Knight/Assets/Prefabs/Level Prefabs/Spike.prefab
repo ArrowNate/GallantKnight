@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7802138401791120845}
   - component: {fileID: 8474267316774409065}
   - component: {fileID: 471287974675233547}
+  - component: {fileID: -8686029538813011481}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Untagged
@@ -138,3 +139,15 @@ PolygonCollider2D:
       - {x: 0.05706799, y: 0.05720043}
       - {x: 0.054937877, y: 0.25}
   m_UseDelaunayMesh: 0
+--- !u!114 &-8686029538813011481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103855888843018722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 147091ac973ab764c8b28d3399691d81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
