@@ -23,8 +23,7 @@ public class HangingSpike : MonoBehaviour
 
     void CheckForPlayerCollision()
     {
-        if (collidedWitPlayer)
-            return;
+        if (collidedWitPlayer) return;
 
         playerCast = Physics2D.Raycast(transform.position, Vector2.down, Mathf.Infinity, collisionLayer);
 
@@ -37,9 +36,6 @@ public class HangingSpike : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag(TagManager.PLAYER_TAG))
-        {
-            Destroy(collision.gameObject);
-        }
+        if (collision.CompareTag(TagManager.PLAYER_TAG)) Destroy(collision.gameObject);
     }
 }

@@ -20,10 +20,8 @@ public class PlayerAnimations : MonoBehaviour
 
     public void ChangeFacingDirection(int direction)
     {
-        if (direction > 0)
-            spriteRenderer.flipX = false;
-        else if (direction < 0)
-            spriteRenderer.flipX = true;
+        if (direction > 0) spriteRenderer.flipX = false;
+        else if (direction < 0) spriteRenderer.flipX = true;
     }
 
     public void PlayJumpAndFall(int jumpFall)

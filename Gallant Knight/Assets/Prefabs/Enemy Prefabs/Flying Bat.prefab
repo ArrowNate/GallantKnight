@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1320400156246232999}
   - component: {fileID: 7042413770353631671}
   - component: {fileID: 1132429234593337569}
+  - component: {fileID: 1641034286368480275}
   m_Layer: 0
   m_Name: Flying Bat
   m_TagString: Untagged
@@ -178,8 +179,29 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992650256672279093}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfa8d6a29eaf8dd4c95a39a0e9a1b8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeedHorizontal: 2
+  moveSpeedVertical: -2
+  horizontalMovementThreshold: 7
+  verticalMovementThreshold: 4
+--- !u!114 &1641034286368480275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992650256672279093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18199e8fa641e884bafcdad55002badb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minX: -8.3
+  maxX: 8.3
+  minY: -4.5
+  maxY: 4.5
+  moveSpeed: 2

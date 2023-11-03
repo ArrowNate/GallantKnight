@@ -62,8 +62,7 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleAnimation()
     {
-        if (pRB.velocity.y == 0f)
-            playerAnimation.PlayRun(Mathf.Abs((int)pRB.velocity.x));
+        if (pRB.velocity.y == 0f) playerAnimation.PlayRun(Mathf.Abs((int)pRB.velocity.x));
 
         playerAnimation.ChangeFacingDirection((int)pRB.velocity.x);
 

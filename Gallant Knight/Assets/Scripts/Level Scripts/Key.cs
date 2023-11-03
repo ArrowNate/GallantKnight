@@ -13,8 +13,7 @@ public class Key : MonoBehaviour
         {
             //Lock.instance.UnlockDoor();
 
-            if (keyCollectedInfo != null)
-                keyCollectedInfo();
+            if (keyCollectedInfo != null) keyCollectedInfo();
 
             Destroy(gameObject);
         }

@@ -56,15 +56,11 @@ public class WormSoldier : MonoBehaviour
     {
         groundHit = Physics2D.Raycast(groundCheckPos.position, Vector2.down, 0.5f, groundLayer);
 
-        if (!groundHit)
-            moveLeft = !moveLeft;
+        if (!groundHit) moveLeft = !moveLeft;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag(TagManager.PLAYER_TAG))
-        {
-            Destroy(collision.gameObject);
-        }
+        if (collision.CompareTag(TagManager.PLAYER_TAG)) Destroy(collision.gameObject);
     }
 }

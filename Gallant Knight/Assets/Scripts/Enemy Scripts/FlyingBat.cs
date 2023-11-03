@@ -25,8 +25,7 @@ public class FlyingBat : MonoBehaviour
 
         moveVertical = Random.Range(0, 2) > 0 ? true : false;
 
-        if (Random.Range(0, 2) > 0)
-            moveSpeedHorizontal *= -1f;
+        if (Random.Range(0, 2) > 0) moveSpeedHorizontal *= -1f;
 
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -44,18 +43,14 @@ public class FlyingBat : MonoBehaviour
             tempPos = transform.position;
             tempPos.x += moveSpeedHorizontal * Time.deltaTime;
 
-            if (tempPos.x > maxX)
-                moveSpeedHorizontal = -Mathf.Abs(moveSpeedHorizontal);
+            if (tempPos.x > maxX) moveSpeedHorizontal = -Mathf.Abs(moveSpeedHorizontal);
 
-            if (tempPos.x < minX)
-                moveSpeedHorizontal = Mathf.Abs(moveSpeedHorizontal);
+            if (tempPos.x < minX) moveSpeedHorizontal = Mathf.Abs(moveSpeedHorizontal);
 
             transform.position = tempPos;
 
-            if (moveSpeedHorizontal < 0)
-                spriteRenderer.flipX = true;
-            else if (moveSpeedHorizontal > 0)
-                spriteRenderer.flipX = false;
+            if (moveSpeedHorizontal < 0) spriteRenderer.flipX = true;
+            else if (moveSpeedHorizontal > 0) spriteRenderer.flipX = false;
         }
     }
 
@@ -66,11 +61,9 @@ public class FlyingBat : MonoBehaviour
             tempPos = transform.position;
             tempPos.y += moveSpeedVertical * Time.deltaTime;
 
-            if (tempPos.y > maxY)
-                moveSpeedVertical = -Mathf.Abs(moveSpeedVertical);
+            if (tempPos.y > maxY) moveSpeedVertical = -Mathf.Abs(moveSpeedVertical);
 
-            if (tempPos.y < minY)
-                moveSpeedVertical = Mathf.Abs(moveSpeedVertical);
+            if (tempPos.y < minY) moveSpeedVertical = Mathf.Abs(moveSpeedVertical);
 
             transform.position = tempPos;
         }

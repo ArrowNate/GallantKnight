@@ -10,8 +10,7 @@ public class RotateObstacle : MonoBehaviour
 
     private void Start()
     {
-        if (Random.Range(0, 2) > 0)
-            rotateSpeed *= -1;
+        if (Random.Range(0, 2) > 0) rotateSpeed *= -1;
     }
 
     private void Update()
@@ -22,9 +21,6 @@ public class RotateObstacle : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag(TagManager.PLAYER_TAG))
-        {
-            Destroy(collision.gameObject);
-        }
+        if (collision.CompareTag(TagManager.PLAYER_TAG)) Destroy(collision.gameObject);
     }
 }
