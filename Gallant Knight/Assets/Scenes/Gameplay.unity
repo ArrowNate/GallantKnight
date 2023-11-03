@@ -4941,6 +4941,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2512040728998800477, guid: f70f5cb08db039f4cb6b5f7b978503ad, type: 3}
+      propertyPath: m_Name
+      value: Web Spawn Point
+      objectReference: {fileID: 0}
     - target: {fileID: 8647965307343095108, guid: f70f5cb08db039f4cb6b5f7b978503ad, type: 3}
       propertyPath: m_Name
       value: Spider Shooter
@@ -4948,8 +4952,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8647965307343095108, guid: f70f5cb08db039f4cb6b5f7b978503ad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8058690656245270021}
   m_SourcePrefab: {fileID: 100100000, guid: f70f5cb08db039f4cb6b5f7b978503ad, type: 3}
+--- !u!1 &8058690656245270020 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8647965307343095108, guid: f70f5cb08db039f4cb6b5f7b978503ad, type: 3}
+  m_PrefabInstance: {fileID: 8058690656245270019}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8058690656245270021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8058690656245270020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f9668204e74f14aba2de5e78298e7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  web: {fileID: 454247899500512892, guid: 8d7e5abe8764a6346b09a0068c380de0, type: 3}
+  minShootTime: 2
+  maxShootTime: 5
 --- !u!1001 &8782472862730780651
 PrefabInstance:
   m_ObjectHideFlags: 0
