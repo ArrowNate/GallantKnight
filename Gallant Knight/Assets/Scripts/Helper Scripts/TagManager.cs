@@ -15,4 +15,6 @@ public static class TagManager
 
     public const string PLAYER_TAG = "Player";
     public const string TRAP_TAG = "Trap";
+
+    public const string GAMEPLAY_LEVEL_NAME = "Gameplay";
 }
