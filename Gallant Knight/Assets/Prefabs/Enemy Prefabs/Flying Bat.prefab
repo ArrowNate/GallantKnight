@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3914389991025750434}
   - component: {fileID: 1320400156246232999}
   - component: {fileID: 7042413770353631671}
+  - component: {fileID: 1132429234593337569}
   m_Layer: 0
   m_Name: Flying Bat
   m_TagString: Untagged
@@ -170,3 +171,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1132429234593337569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992650256672279093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfa8d6a29eaf8dd4c95a39a0e9a1b8c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
