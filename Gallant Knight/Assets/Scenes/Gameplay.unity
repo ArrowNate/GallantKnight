@@ -419,6 +419,22 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
+      value: -0.14999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
+      value: 0.057183743
+      objectReference: {fileID: 0}
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
+      value: 0.14587672
+      objectReference: {fileID: 0}
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
+      value: 0.057183713
+      objectReference: {fileID: 0}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 11
@@ -761,6 +777,22 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
+      value: -0.14587666
+      objectReference: {fileID: 0}
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
+      value: 0.059245348
+      objectReference: {fileID: 0}
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
+      value: 0.15412326
+      objectReference: {fileID: 0}
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
+      value: 0.057183683
+      objectReference: {fileID: 0}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 10
@@ -2221,6 +2253,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 771718157}
     m_Modifications:
+    - target: {fileID: 1581329620716592876, guid: fddfdf6cb1ecd8e43ae3e121d52e21e8, type: 3}
+      propertyPath: m_Radius
+      value: 0.72334135
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581329620716592876, guid: fddfdf6cb1ecd8e43ae3e121d52e21e8, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.07665861
+      objectReference: {fileID: 0}
     - target: {fileID: 7554589551110511614, guid: fddfdf6cb1ecd8e43ae3e121d52e21e8, type: 3}
       propertyPath: m_Name
       value: Circle Spike 3
@@ -2451,10 +2491,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1499048492}
     m_Modifications:
-    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 9
@@ -2944,6 +2980,22 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
+      value: -0.14587672
+      objectReference: {fileID: 0}
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
+      value: 0.059245348
+      objectReference: {fileID: 0}
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
+      value: 0.15206163
+      objectReference: {fileID: 0}
+    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
+      value: 0.059245348
+      objectReference: {fileID: 0}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike 12
@@ -5227,10 +5279,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1499048492}
     m_Modifications:
-    - target: {fileID: 471287974675233547, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 47d8ef0dc841fa34ea5f538d3afcb9a1, type: 2}
     - target: {fileID: 1103855888843018722, guid: 82667b73d398ba849a9be0e8071ede7e, type: 3}
       propertyPath: m_Name
       value: Spike
