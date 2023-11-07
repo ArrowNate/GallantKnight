@@ -43,6 +43,11 @@ public class FlyingBatRandomMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag(TagManager.PLAYER_TAG)) Destroy(collision.gameObject);
+        if (collision.CompareTag(TagManager.PLAYER_TAG))
+        {
+            GameoverUIController.instance.GameoverPanel();
+
+            Destroy(collision.gameObject);
+        }
     }
 }
